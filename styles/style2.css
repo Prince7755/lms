@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif; /* Change font for the entire page */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the body */
+}
+
+h2 {
+    color: #333; /* Dark text color for the heading */
+    text-align: center;
+}
+
+form {
+    background: #fff; /* White background for the form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    max-width: 400px; /* Maximum width of the form */
+    margin: 20px auto; /* Center the form horizontally */
+}
+
+label {
+    display: block; /* Make labels take full width */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #555; /* Gray color for labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding inside input */
+    margin-bottom: 15px; /* Space below input */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Increase font size */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding inside button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+    margin-left: 150px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.btn {
+    display: inline-block; /* Make the button an inline-block element */
+    margin-top: 10px; /* Space above the button */
+    text-decoration: none; /* Remove underline */
+}
